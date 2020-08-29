@@ -2,42 +2,13 @@
     margin: 0;
 }
 
-nav h1{
-    width: 90%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    font-size: 1.5rem;
-    height: 2.5rem;
-
-    margin-top: 1rem;
-}
-
-nav h1 div{
-    width: 45%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-nav div a{
-    width: 35%;
-    padding-bottom: 0.25rem;
-    padding-top: 0.25rem;
-    line-height: 1.5rem;
-    text-align: center;
-    cursor: pointer;
-}
-
-nav div a:hover{
+/* nav div a:hover{
     border-bottom: 0.25rem solid lightblue;
     transition: linear 0.25s;
-}
+} */
 
 header{
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 header h1{
@@ -66,8 +37,7 @@ main{
 
 main aside{
     width: 60%;
-    height: auto;
-
+    height: 30em;
     text-align: center;
 }
 
@@ -88,6 +58,11 @@ main aside header a:hover {
 
 #index-photos img{
     width: 40%;
+}
+
+#index-photos img:hover{
+    transform: scale(1.05);
+    transition: 0.2ms;
 }
 
 #index-college-intro{
