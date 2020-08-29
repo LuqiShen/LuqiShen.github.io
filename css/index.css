@@ -37,7 +37,6 @@ main{
 
 main aside{
     width: 60%;
-    height: 30em;
     text-align: center;
 }
 
@@ -49,6 +48,7 @@ main aside header a{
 
 main aside header a:hover {
     color: lightskyblue;
+    text-decoration: none;
 }
 
 #index-photos {
@@ -60,10 +60,10 @@ main aside header a:hover {
     width: 40%;
 }
 
-#index-photos img:hover{
+/* #index-photos img:hover{
     transform: scale(1.05);
     transition: 0.2ms;
-}
+} */
 
 #index-college-intro{
     width: 40%;
