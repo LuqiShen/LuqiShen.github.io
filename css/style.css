@@ -1,7 +1,44 @@
-#hello{
+/* 主题色设置 */
+.bg-is-lightseagreen{
+    background-color: lightseagreen;
+}
+
+.bg-is-skyblue{
     background-color: skyblue;
 }
 
-#i-am-lucy{
+.navbar-item img{
+    max-height: 3rem;
+}
+
+#hero-hello{
+    background-color: skyblue;
+}
+
+#hero-i-am-lucy{
     background-color: lightseagreen;
+}
+
+#hero-self-intro{
+    padding: 3rem;
+}
+
+#hero-self-intro-avatar{
+    height: 10rem;
+    width: 10rem;
+    margin: auto;
+}
+
+#hero-self-intro-avatar{
+    border-radius: 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    max-width: 10rem;
+    max-height: 10rem;
+}
+
+#tile-brief-of-article{
+    padding: 2rem;
 }
